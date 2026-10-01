@@ -1,11 +1,12 @@
 # UTAX AI Privacy Policy
 
-**Last updated:** September 22, 2026
-**Effective date:** September 22, 2026
+**Last updated:** October 1, 2026
+**Effective date:** October 1, 2026
 
 This policy applies to the UTAX AI mobile application on iOS and Android.
 
-UTAX AI ("we," "us," and "our") is an AI-powered tax information assistant.
+UTAX AI is an AI-powered tax and accounting information assistant operated by
+HUMBLE BEE AI, MCHJ ("we," "us," and "our").
 This policy explains what information the app processes, why it is used, and the
 choices available to you.
 
@@ -20,13 +21,29 @@ comfortable sharing with the service.
 
 The app may collect or process:
 
+- **Account information:** when you use Google Sign-In, your name, email address,
+  Google account identifier, and profile image if provided by Google. We also
+  process authentication tokens and a UTAX AI user/account identifier to verify
+  your sign-in and associate your conversations with your account. UTAX AI does
+  not receive your Google password.
 - Chat messages and questions you submit.
 - Photos, camera images, and files you choose to attach to a chat.
+- **Financial information you choose to submit:** for example, income, assets,
+  debts, or other tax/accounting information contained in your messages or
+  uploaded documents. Providing these details is optional; use general questions
+  or remove identifying details when possible.
 - Conversation identifiers and message history needed to display and continue
   your chats.
 - Local app preferences, including selected language and appearance mode.
 - Basic technical and request information processed by the UTAX AI backend, such
   as app version, device type, request metadata, and error logs.
+- **Diagnostics:** crash reports and technical error information collected by
+  Sentry when error reporting is enabled, including stack traces and relevant
+  app/device and request context. Diagnostic information may be associated with
+  account or device context; it is not used for advertising tracking.
+
+Account details, conversations, and attachments may be linked to your UTAX AI
+account. Local appearance and language preferences are stored on your device.
 
 UTAX AI does not intentionally collect payment card data, advertising identifiers,
 precise location, contacts, health data, or biometric data.
@@ -45,6 +62,7 @@ UTAX AI does not access photos or files that you have not selected.
 
 We use information to:
 
+- Authenticate users through Google Sign-In and maintain their UTAX AI accounts.
 - Send your question and selected attachments to the UTAX AI service.
 - Create, maintain, and display your chat conversations.
 - Provide tax-related AI-assisted responses.
@@ -60,6 +78,15 @@ cross-app tracking.
 UTAX AI communicates with systems and service providers needed to deliver the
 chat service. Messages, attachments, and conversation identifiers may be processed
 by those systems to provide, secure, maintain, and support the service.
+
+- **Google** provides the Google Sign-In authentication service. Its independent
+  processing is described in the [Google Privacy Policy](https://policies.google.com/privacy).
+- **AI and storage providers** process submitted messages, selected attachments,
+  and relevant account/conversation identifiers on our behalf to provide the
+  service. We do not authorize these providers to use UTAX AI user content to
+  train their own models.
+- **Sentry** processes crash and technical error reports on our behalf to help
+  investigate failures and improve reliability when error reporting is enabled.
 
 We may share information only with service providers operating the service, when
 required by law or legal process, to protect rights and safety, or with your
@@ -78,10 +105,19 @@ We retain information only as long as reasonably needed to provide and operate t
 service, comply with legal obligations, resolve disputes, and protect the service.
 
 You can choose not to attach photos or files and can delete the app to remove its
-local data. To request deletion of server-side chat, attachment, or conversation
-data, contact **support@wakil.ai**. Please include enough information to identify
-the relevant conversation, such as the approximate chat date. Do not send sensitive
-documents unless they are needed to identify your request.
+local data. To request deletion of your UTAX AI account or associated server-side
+chats, attachments, and conversation data, contact **support@wakil.ai** from the
+Google email address used for your UTAX AI account. You may also request deletion
+of specific conversations while keeping your account. Include enough non-sensitive
+information to identify the request, such as the approximate chat date. Do not
+send your Google password, sign-in codes, or sensitive documents.
+
+Submitting a request, signing out, or deleting the app does not itself delete
+server-side data. In-app account deletion and end-to-end removal of associated
+service data are not yet fully implemented. Contact support for the current status
+of your request; this policy does not promise that complete deletion is currently
+available or provide a fixed completion deadline. Deleting a UTAX AI account does
+not delete your Google account.
 
 ## 8. Security and international processing
 
