@@ -1,6 +1,6 @@
 # UTAX AI Privacy Policy
 
-**Last updated:** October 6, 2026
+**Last updated:** October 7, 2026
 **Effective date:** October 1, 2026
 
 This policy applies to the UTAX AI mobile application on iOS and Android.
@@ -46,6 +46,13 @@ The app may collect or process:
 
 Account details, conversations, and attachments may be linked to your UTAX AI
 account. Local appearance and language preferences are stored on your device.
+
+When provided by Google or Telegram during verified sign-in, we store your
+display name and profile photo URL on your UTAX AI account to show your profile
+across our clients. The backend stores the photo link, not a copy of the profile
+image. The app may cache profile information and the displayed image locally.
+These stored account fields are covered by the retention and deletion provisions
+below.
 
 Telegram Sign-In requests the `openid` and `profile` scopes. It does not request
 your phone number or permission for the bot to message you, and does not give
