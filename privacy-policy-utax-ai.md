@@ -1,6 +1,6 @@
 # UTAX AI Privacy Policy
 
-**Last updated:** October 7, 2026
+**Last updated:** October 13, 2026
 **Effective date:** October 1, 2026
 
 This policy applies to the UTAX AI mobile application on iOS and Android.
@@ -28,6 +28,12 @@ The app may collect or process:
   UTAX AI user/account identifier to verify your sign-in and associate your
   conversations with your account. UTAX AI does not receive your Google or
   Telegram password or sign-in codes.
+- **Contact phone number:** after signing in, you enter a contact phone number
+  with its country code to complete registration. We store this number on your
+  UTAX AI account as editable contact information, and display it in your profile,
+  where you can correct or change it. We check its format but do not verify
+  ownership through SMS. It is separate from your verified sign-in identity and
+  is not used for advertising tracking.
 - Chat messages and questions you submit.
 - Photos, camera images, and files you choose to attach to a chat.
 - **Financial information you choose to submit:** for example, income, assets,
