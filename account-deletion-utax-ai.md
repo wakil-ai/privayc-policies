@@ -4,11 +4,16 @@ This page applies to the UTAX AI app for Android and iOS, published under the ap
 
 ## Request account deletion
 
-In app versions that include **Settings → Request account deletion**, you can
-confirm and submit a request while signed in. A confirmation that the request was
-received is not confirmation that the account or data has already been deleted.
-If that option is absent or the request cannot be confirmed, use the email route
-below. Contact support to check the progress of a request.
+Starting with UTAX AI 1.0.7, while signed in, open **Settings → Account → Delete
+account**, read the warning, type **DELETE**, and confirm. Once the server accepts
+the request, your account is disabled and the app signs you out. Automatic
+background cleanup then removes the associated live-service data described below.
+An **account deletion started** message means the request was accepted, not that
+cleanup has already finished. Cleanup retries if a service is temporarily
+unavailable; no fixed completion deadline is promised.
+
+If you use an older version, cannot sign in, or cannot confirm the request, use
+the email route below. Contact support to check deletion progress.
 
 Email [support@utax.uz](mailto:support@utax.uz?subject=UTAX%20AI%20account%20deletion).
 Use the subject **UTAX AI account deletion** and state that you want your UTAX AI
@@ -29,14 +34,22 @@ It does not delete your Google or Telegram account or data held independently
 by those providers.
 Removing an account row alone does not constitute deletion of all this data.
 
-The app may also store chats, attachment copies, and preferences locally on your device. Uninstall UTAX AI to remove its local app storage. Removing the app alone does not delete your server-side account or data.
+After an accepted in-app deletion, the app clears the account's local chat and
+attachment cache and sign-in credentials. The app may also store preferences on
+your device. Uninstall UTAX AI to remove its remaining local app storage. Removing
+the app alone does not delete your server-side account or data.
 
 ## Retention
 
-Requests require identity verification and fulfillment by the support team;
-deletion is not immediate. Support must confirm completion across the relevant
-data stores before stating that deletion is complete. Limited records may need to
-be retained to comply with applicable legal obligations, resolve disputes, or
+In-app requests are authenticated through your signed-in account and processed
+automatically. Email requests require identity verification and fulfillment by
+the support team. Deletion is not immediate. Completion is confirmed only after
+cleanup across the live account database, uploaded-file storage, AI memory and
+user-specific vector indexes succeeds. Limited content-free technical records
+may remain to prevent deleted data from being restored by pending operations.
+Backups and independent provider logs are not immediately erased by this process
+and remain subject to their applicable retention requirements. Limited records
+may need to be retained to comply with applicable legal obligations, resolve disputes, or
 protect the service from abuse, as described in our privacy policy. Support should
 explain the affected data, reason and applicable retention period, including any
 backup retention, before marking your request completed. No fixed deletion
