@@ -1,8 +1,8 @@
 # Kusherbayev AI Privacy Policy
 
-**Last updated:** August 23, 2026
+**Last updated:** October 13, 2026
 
-This policy applies to Kusherbayev AI on iOS.
+This policy applies to Kusherbayev AI on iOS and Android.
 
 Kusherbayev AI ("we," "us," "our") is a legal assistant chat app built on the Wakil AI
 CRM platform. This policy explains what information we collect, how we use it, who we
@@ -21,6 +21,7 @@ you are not comfortable sharing with the service provider.
 
 The app may collect or process the following information:
 
+- The phone number and country code you provide for your contact profile.
 - Chat messages you type into the app.
 - Files, photos, or camera images you choose to attach to a chat message.
 - Chat conversation identifiers needed to keep your conversations available in the app.
@@ -32,6 +33,15 @@ The app may collect or process the following information:
 
 The app does not intentionally collect payment information, advertising identifiers,
 precise location, contacts, health data, or biometric data.
+
+### Phone number
+
+After signing in, you are asked to provide a phone number with its country code.
+We store this number in our CRM as contact information associated with your chat/contact
+profile, and cache a copy locally so you do not have to enter it again on every launch.
+You can correct or change it in Settings → Account. No SMS or one-time code is sent to
+verify the number, and it is not treated as a verified login identity. Its storage and
+deletion are covered by the retention and deletion sections below.
 
 ## 3. Camera, photo library, and file access
 
