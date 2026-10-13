@@ -127,8 +127,24 @@ We retain information only as long as reasonably needed to provide and operate t
 service, comply with legal obligations, resolve disputes, and protect the service.
 
 You can choose not to attach photos or files and can delete the app to remove its
-local data. To request deletion of your UTAX AI account or associated server-side
-chats, attachments, and conversation data, contact **support@utax.uz**. For Google
+local data. Starting with UTAX AI 1.0.7, you can request account deletion while
+signed in through **Settings → Account → Delete account**, type **DELETE**, and
+confirm. Once accepted, the account is disabled and you are signed out; the app
+clears the account's local chat and attachment cache and sign-in credentials.
+Automatic background cleanup removes profile and sign-in identifiers, contact
+phone number, server-side chats and messages, uploaded attachments and extracted
+text, AI memory, and user-specific vector-index copies from the live service.
+
+An **account deletion started** confirmation means the request was accepted, not
+that cleanup has finished. Cleanup retries if a service is temporarily
+unavailable, and completion is confirmed only after the relevant cleanup succeeds.
+Limited content-free technical records may remain to prevent pending operations
+from restoring deleted data. Backups and independent provider logs are not
+immediately erased by this process and remain subject to their applicable
+retention requirements. No fixed completion deadline is promised.
+
+If you cannot use in-app deletion, or want to request deletion of specific
+server-side chats or attachments, contact **support@utax.uz**. For Google
 Sign-In accounts, use the associated email address where possible. For Telegram
 Sign-In accounts, include your Telegram username or account identifier so support
 can verify the request. You may also request deletion of specific conversations
@@ -136,12 +152,10 @@ while keeping your account. Include enough non-sensitive information to identify
 the request, such as the approximate chat date. Do not send passwords,
 authentication tokens, sign-in codes, or sensitive documents.
 
-Submitting a request, signing out, or deleting the app does not itself delete
-server-side data. In-app account deletion and end-to-end removal of associated
-service data are not yet fully implemented. Contact support for the current status
-of your request; this policy does not promise that complete deletion is currently
-available or provide a fixed completion deadline. Deleting a UTAX AI account does
-not delete your Google or Telegram account.
+Signing out or deleting the app alone does not delete server-side data. Contact
+support for the status of a deletion request. Deleting a UTAX AI account does not
+delete your Google or Telegram account or data independently held by those
+providers.
 
 ## 8. Security and international processing
 
