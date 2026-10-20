@@ -1,7 +1,7 @@
 # WakilAI Privacy Policy
 
-**Last updated:** September 26, 2026
-**Effective date:** September 26, 2026
+**Last updated:** October 20, 2026
+**Effective date:** Upon publication of this update
 
 This policy applies to WakilAI on iOS and Android.
 
@@ -22,6 +22,7 @@ info@wakil.ai.
 |---|---|---|
 | Account identifiers | Name, email address, profile photo URL | Google, Apple, or Telegram sign-in; you provide it directly for guest→account conversion |
 | Authentication data | OAuth provider ID, session tokens | Sign-in providers |
+| Contact phone | A contact number you enter or a number supplied by your sign-in provider | You or your sign-in provider; a self-declared contact number is not SMS-verified and is not an account-recovery credential |
 | Legal queries | The text of questions you ask the assistant | Typed or dictated by you |
 | Voice recordings | Audio of dictated questions | Captured via your device microphone, only when you use voice input |
 | Uploaded documents | PDFs, images, and other files you attach to a question or project | Uploaded by you |
@@ -59,10 +60,17 @@ above are used only to measure our own ads (see §5).
 - To transcribe voice questions into text.
 - To retrieve current information from the web when your question requires it.
 - To maintain your account, session history, and subscription status.
+- To record purchased credit grants, usage and refunds, reconcile payment references,
+  and prevent duplicate grants or credits being assigned to another account.
 - To monitor and improve system reliability, including detecting app crashes.
 - To measure our own advertising: which Instagram and Facebook ads lead to app installs,
   sign-ups, and purchases (see §5).
 - To communicate with you about your account or the service.
+
+A contact phone entered in the mobile contact form is contact information, not proof
+that you own that number. Where the app allows editing that contact field, you can
+correct it in your profile. This is separate from any authentication flow that
+explicitly asks you to verify a phone number.
 
 We do not sell your personal data. Apart from the advertising measurement described in
 §5 (Meta), we do not share it for third-party advertising.
@@ -142,6 +150,11 @@ where it operates.
   ID, Meta's anonymous ID, platform, and app and OS versions) are removed when you delete
   your account. Data we have already sent to Meta cannot be recalled by us and is kept
   under Meta's privacy policy.
+- Payment and credit-transaction references may be retained where needed to reconcile
+  purchases, refunds and disputes or meet applicable legal obligations. They are
+  separate from your chat content. Deleting a WakilAI account does not itself cancel
+  an App Store, Google Play or other separately authorized recurring payment; manage
+  cancellation through the provider that bills you.
 
 ## 8. Your rights and choices
 
@@ -162,6 +175,11 @@ where it operates.
   consent and data-sharing terms apply to guest sessions.
 - **Correction**: you can update your account details (name, email) via your sign-in
   provider at any time; changes sync on next sign-in.
+- **Subscription information**: payment, upgrade, cancellation and credit-validity
+  terms are described in the purchase screen and the
+  [WakilAI public offer](https://wakil.ai/offert). App Store and Google Play purchases
+  also follow the billing and refund terms displayed by the relevant store. This
+  privacy policy explains data handling; it does not override those purchase terms.
 - **Objection**: you can decline the AI-data disclosure at any point it's shown, which
   stops that action (sending a message, uploading a file, searching, or using voice)
   from proceeding.
